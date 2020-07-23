@@ -29,8 +29,9 @@ export default class TextContainer extends Component {
           value={this.state.text}
           placeholder="Start typing your thoughts here!"
           cols="90"
-          rows="30"
-        />
+          rows="30">
+            
+          </textarea>
       </div>
     );
   }
